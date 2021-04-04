@@ -1,0 +1,159 @@
+<!-- AUTEUR : DAVID Louis             -->
+<!-- VERSION : 0.0                    -->
+<!-- DATE DERNIERE MODIF : 29/03/2021 -->
+
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="CSS/GS.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <script src="JS/script.js"></script>  
+    <meta charset="utf-8">
+        <head> 
+            <title>Trouve ta planque !</title>
+        </head>
+        <body>
+            <audio autoplay loop>
+                <source src="song/GameMu.mp3">
+            </audio>
+             <div>
+              <img id="MAP" src="IMG/MAP.png">
+              <table>
+                <tr>
+                    <td id="1-1" onclick="choix(this.id)">1.1</td>
+                    <td id="1-2" onclick="choix(this.id)">1.2</td>
+                    <td id="1-3" onclick="choix(this.id)">1.3</td>
+                    <td id="1-4" onclick="choix(this.id)">1.4</td>
+                    <td id="1-5" onclick="choix(this.id)">1.5</td>
+                    <td id="1-6" onclick="choix(this.id)">1.6</td>
+                    <td id="1-7" onclick="choix(this.id)">1.7</td>
+                </tr>
+                <tr>
+                    <td id="2-1" onclick="choix(this.id)">2.1</td>
+                    <td id="2-2" onclick="choix(this.id)">2.2</td>
+                    <td id="2-3" onclick="choix(this.id)">2.3</td>
+                    <td id="2-4" onclick="choix(this.id)">2.4</td>
+                    <td id="2-5" onclick="choix(this.id)">2.5</td>
+                    <td id="2-6" onclick="choix(this.id)">2.6</td>
+                    <td id="2-7" onclick="choix(this.id)">2.7</td>
+                </tr>
+                <tr>
+                    <td id="3-1" onclick="choix(this.id)">3.1</td>
+                    <td id="3-2" onclick="choix(this.id)">3.2</td>
+                    <td id="3-3" onclick="choix(this.id)">3.3</td>
+                    <td id="3-4" onclick="choix(this.id)">3.4</td>
+                    <td id="3-5" onclick="choix(this.id)">3.5</td>
+                    <td id="3-6" onclick="choix(this.id)">3.6</td>
+                    <td id="3-7" onclick="choix(this.id)">3.7</td>
+                </tr>
+                <tr>
+                    <td id="4-1" onclick="choix(this.id)">4.1</td>
+                    <td id="4-2" onclick="choix(this.id)">4.2</td>
+                    <td id="4-3" onclick="choix(this.id)">4.3</td>
+                    <td id="4-4" onclick="choix(this.id)">4.4</td>
+                    <td id="4-5" onclick="choix(this.id)">4.5</td>
+                    <td id="4-6" onclick="choix(this.id)">4.6</td>
+                    <td id="4-7" onclick="choix(this.id)">4.7</td>
+                </tr>
+                <tr>
+                    <td id="5-1" onclick="choix(this.id)">5.1</td>
+                    <td id="5-2" onclick="choix(this.id)">5.2</td>
+                    <td id="5-3" onclick="choix(this.id)">5.3</td>
+                    <td id="5-4" onclick="choix(this.id)">5.4</td>
+                    <td id="5-5" onclick="choix(this.id)">5.5</td>
+                    <td id="5-6" onclick="choix(this.id)">5.6</td>
+                    <td id="5-7" onclick="choix(this.id)">5.7</td>
+                </tr>
+                <tr>
+                    <td id="6-1" onclick="choix(this.id)">6.1</td>
+                    <td id="6-2" onclick="choix(this.id)">6.2</td>
+                    <td id="6-3" onclick="choix(this.id)">6.3</td>
+                    <td id="6-4" onclick="choix(this.id)">6.4</td>
+                    <td id="6-5" onclick="choix(this.id)">6.5</td>
+                    <td id="6-6" onclick="choix(this.id)">6.6</td>
+                    <td id="6-7" onclick="choix(this.id)">6.7</td>
+                </tr>
+                <tr>
+                    <td id="7-1" onclick="choix(this.id)">7.1</td>
+                    <td id="7-2" onclick="choix(this.id)">7.2</td>
+                    <td id="7-3" onclick="choix(this.id)">7.3</td>
+                    <td id="7-4" onclick="choix(this.id)">7.4</td>
+                    <td id="7-5" onclick="choix(this.id)">7.5</td>
+                    <td id="7-6" onclick="choix(this.id)">7.6</td>
+                    <td id="7-7" onclick="choix(this.id)">7.7</td>
+                </tr>
+                <tr>
+                    <td id="8-1" onclick="choix(this.id)">8.1</td>
+                    <td id="8-2" onclick="choix(this.id)">8.2</td>
+                    <td id="8-3" onclick="choix(this.id)">8.3</td>
+                    <td id="8-4" onclick="choix(this.id)">8.4</td>
+                    <td id="8-5" onclick="choix(this.id)">8.5</td>
+                    <td id="8-6" onclick="choix(this.id)">8.6</td>
+                    <td id="8-7" onclick="choix(this.id)">8.7</td>
+                </tr>
+                <tr>
+                    <td id="9-1" onclick="choix(this.id)">9.1</td>
+                    <td id="9-2" onclick="choix(this.id)">9.2</td>
+                    <td id="9-3" onclick="choix(this.id)">9.3</td>
+                    <td id="9-4" onclick="choix(this.id)">9.4</td>
+                    <td id="9-5" onclick="choix(this.id)">9.5</td>
+                    <td id="9-6" onclick="choix(this.id)">9.6</td>
+                    <td id="9-7" onclick="choix(this.id)">9.7</td>
+                </tr>
+            </table>
+             </div>  
+             <!--_________MENU________-->
+             <div>
+                <nav>
+                    <a href="#aide"><img src="IMG/help.png"></a>
+                    <a href="#info"><img id="event" src="IMG/event.png"></a>
+                    <a href="#succes"><img id="successe"src="IMG/succes.png"></a>
+                    <a href="#Profil"><img id="Profil" src="IMG/succes.png"></a>
+                    <a href="#Credits">Crédits</a>
+                  </nav>
+                   
+                 <div class= 'container'> 
+                   <section id= 'aide'>
+                          <img id="paper"src="IMG/paper.png">
+                          <h1>Aide</h1>
+                          <h1 id="Galere1">- Tu est un gangster qui à braqué une banque.</h1>
+                          <h1 id="Galere5">- Ton but est donc de retrouver ta planque.</h1>
+                          <h1 id="Galere3">- Si tu gagne l'argent va vers ton compte offshore dans la rubrique profil.</h1>
+                          <h1 id="Galere4">- 2 Tableau des high-score sont disponnible. (nombre de coup et total offshore) accessible dans mon profil.</h1>
+                   </section>
+                   <section id= 'info'>
+                        <img id="paper"src="IMG/paper.png">
+                        <h1>Informations</h1>
+                        <h1 id="Galere5">Tu à 5 type de case.</h1>
+                        <h1 id="Galere6">- Les grise qui ne font rien.</h1>
+                        <h1 id="Galere7">- Les bleu qui te rapporte plus d'argent.</h1>
+                        <h1 id="Galere8">- Les Orange qui te font perde de l'argent.</h1>
+                        <h1 id="Galere9">- Les Rouge qui te font perdre la partie.</h1>
+                        <h1 id="Galere10">- Les Verte qui te font gagné la partie.</h1>
+                   </section>
+                   <section id= 'succes'>
+                        <img id="paper"src="IMG/paper.png">
+                        <h1>Succés</h1>
+                        <h1 id="Galere3">Il n'y à pas de succés disponnible pour le moment.</h1>
+                   </section>
+                   <section id= 'Credits'>
+                        <img id="paper"src="IMG/paper.png"> 
+                        <h1>Crédits</h1>
+                          <h1 id="Galere1">Idée original de : Louis DAVID</h1>
+                          <h1 id="Galere2">Developpeur  Louis DAVID</h1>
+                   </section>
+                   <section id= 'Profil'>
+                        <img id="paper"src="IMG/paper.png"> 
+                        <h1>Profil</h1>
+                          <h1 id="Galere1">Idée original de : Louis DAVID</h1>
+                          <h1 id="Galere2">Developpeur  Louis DAVID</h1>
+                   </section>
+                 </div>
+             </div>
+             <!--_________FIN MENU________-->
+             <div>
+               <p id="mag">💵 :</p>
+               <p id="magValue" value="100000">100000$</p>
+             </div>
+        </body>
+</html> 

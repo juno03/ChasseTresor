@@ -1,0 +1,45 @@
+/* AUTEUR : DAVID Louis           
+   VERSION : 0.0                 
+   DATE DERNIERE MODIF : 29/03/2021
+*/
+
+body {
+    background-image: url("../IMG/GS_background.jpg");
+}
+
+#MAP{
+    position: absolute;
+    left: 25%;
+    height: 100%;
+  
+}
+
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 25%;
+}
+
+td{ 
+    border: dashed white;
+    padding: 43px;
+}
+
+td:hover{
+    background-color: white;
+    opacity: 50%;
+    cursor: pointer;
+}
+tr{
+    border: dashed white;
+}
+#mag{
+    position: absolute;
+    top: 75%;
+    left: 76%;
+}
+#magValue{
+    position: absolute;
+    top: 75.4%;
+    left: 78%;
+}

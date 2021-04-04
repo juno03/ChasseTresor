@@ -1,0 +1,46 @@
+/* AUTEUR : DAVID Louis           
+   VERSION : 0.0                 
+   DATE DERNIERE MODIF : 29/03/2021
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-image: url("../IMG/background.jpg");
+   }
+#histoire{
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+}
+#titre{
+    text-align: center;
+}
+#OK{
+    position: absolute;
+    left: 47%;
+    text-decoration: none;
+}
+#Dollars{
+    position: absolute;
+    top: 74.4%;
+    left: 81.3%;
+}
+#Arme{
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    width: 500px;
+    transform: rotate(110deg);
+    transform: scaleX(-1);
+}
+#Cofee{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+#miette{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+}
